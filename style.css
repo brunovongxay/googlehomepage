@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+#searchbar{display: flex; justify-content: center; height:auto; margin-top: 27px}
+.formulaire               {display:inline-block;}
+.formulaire .champ       {width:575px; height:45px; border-bottom-left-radius: 35px; border-bottom-right-radius: 35px; border-top-left-radius: 35px; border-top-right-radius: 35px}
+
+
+#input{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;  
+}
+
+a {
+    text-decoration: none;
+    color: #2d2c2c;
+}
+
+a:hover{
+    text-decoration: underline
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 145px;
+
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.France{
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #2d2c2c;
+    padding-top: 200px;
+}
+
+#Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background: #f2f2f2;
+}
+
+#Footerleft{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#Footerright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
